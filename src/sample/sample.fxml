@@ -7,7 +7,7 @@
    <children>
       <Label fx:id="labelNumsAleatorios" text="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
       <TextField fx:id="textNumUser" onKeyTyped="#onChangeTextNumUser" GridPane.rowIndex="1" />
-      <Button fx:id="buttonUser" contentDisplay="CENTER" disable="true" mnemonicParsing="false" text="Button" visible="false" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+      <Button fx:id="buttonUser" contentDisplay="CENTER" disable="true" mnemonicParsing="false" onMouseClicked="#onClickButtonUser" text="Button" visible="false" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
    </children>
    <rowConstraints>
       <RowConstraints />
