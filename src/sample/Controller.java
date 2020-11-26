@@ -45,7 +45,7 @@ public class Controller {
                 break;
             }
             default: {
-                System.out.println("Pero que coño has hecho crack");
+                System.out.println("EPIX FAIL");
                 break;
             }
         }
